@@ -152,10 +152,12 @@ h1, h2 {
     object-fit: cover;
 }
 
+/* footer */
+
 footer {
     background-color: orange;
-    padding: 16px;
     text-align: center;
+    padding: 20px 0;
     width: 100%;
     bottom: 0;
     right: 0;
@@ -165,4 +167,17 @@ footer > a {
     color: gray;
     text-decoration: none;
     padding: 0 15px;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 5;
+    column-gap: 1px;
+}
+
+#photos > img {
+    width: 100%;
 }
