@@ -86,9 +86,8 @@ h1, h2 {
 }
 
 .dog-container {
-    width: 100%
+    width: 100%;
     float: left;
-    padding: 0px 0 0 10px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -103,7 +102,7 @@ h1, h2 {
 /*Sign up section */
 
 #signup {
-    height: 180px;
+    height: 200px;
 }
 
 #signup-text {
@@ -144,10 +143,15 @@ h1, h2 {
     margin: 5px;
 }
 
+.story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
 .story-container {
-    width: 50%;
     float: left;
-    padding: 0px 0 0 20px;
     border: 2px solid white;
     box-sizing: border-box;
     height: 400px;
@@ -246,7 +250,7 @@ footer > a {
 
 /* media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1100px wide and down */
 @media screen and (max-width: 1100px) {
     #dog-overview {
         height: 850px;
@@ -257,10 +261,43 @@ footer > a {
         width: 65%;
         margin: 0 auto;
     }
+
+    #story-overview {
+        height: 900px;
+    }
+
+    .story-grid {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 900px wide and down */
+@media screen and (max-width: 900px) {
+    #dog-overview {
+        height: 1100px;
+    }
+
+    .dog-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .story-grid {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .photos {
+        column-count: 3;
+    }
+}
+
+/* For medium screen sizes from 700px wide and down */
+@media screen and (max-width: 700px) {
     #menu {
         clear: left;
         float: left;
@@ -269,8 +306,13 @@ footer > a {
         line-height: 25px;
     }
 
-    #cover-text {
-        left: 0;
+    header {
+        height: 100px;
+    }
+
+    #dog-overview-header {
+        width: 75%;
+        margin: 0 auto;
     }
 
     .photos {
@@ -278,7 +320,29 @@ footer > a {
     }
 }
 
-@media screen and (max-width: 800px) {
+/* For medium screen sizes from 600px wide and down */
+@media screen and (max-width: 600px) {
+    #signup {
+        height: 220px;
+    }
+    #signup-text h3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .photos {
+        column-count: 2;
+    }
+}
+
+/* For medium screen sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+    #story-overview {
+        height: 950px;
+    }
+    #story-overview-header {
+        width: 90%;
+        margin: 0 auto;
+    }
     .photos {
         column-count: 2;
     }
