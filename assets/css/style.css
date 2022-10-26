@@ -80,6 +80,7 @@ h1, h2 {
 
 .dog-grid {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 20px;
@@ -91,12 +92,20 @@ h1, h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    max-width: 190px;
 }
 
 .dog-foto {
     width: 100%;
     max-height: 190px;
-    max-width: 190px;
+}
+
+.dog-container .dog-foto, .dog-name, .dog-adopt-button {
+    cursor: pointer;
+}
+
+.dog-name {
+    background-color: black;
 }
 
 /*Sign up section */
@@ -108,7 +117,7 @@ h1, h2 {
 #signup-text {
     text-align: center;
     margin: 5px 0;
-    background-color: green;
+    background-color: rgb(86, 183, 107);
     height: 100%;
 }
 
@@ -128,7 +137,11 @@ h1, h2 {
     padding: 15px 30px;
     margin-top: 20px;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 2px;
+}
+
+#signup-text button:hover {
+    background-color:rgb(238, 185, 88);
 }
 
 /*Our happy stories section*/
@@ -161,17 +174,22 @@ h1, h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /* footer */
 
 footer {
-    background-color: orange;
+    background-color: rgb(238, 185, 88);
     text-align: center;
     padding: 20px 0;
     width: 100%;
     bottom: 0;
     right: 0;
+}
+
+footer span {
+    font-weight: bold;
 }
 
 footer > a {
@@ -238,18 +256,17 @@ footer > a {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgb(86, 183, 107);
     color: #fafafa;
     display: block;
 }
 
 .adopt-button:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: rgb(86, 183, 107);
 }
 
 /* media queries */
-
 /* For larger to medium screens size from 1100px wide and down */
 @media screen and (max-width: 1100px) {
     #dog-overview {
@@ -281,7 +298,7 @@ footer > a {
 
     .dog-grid {
         grid-template-columns: 1fr 1fr;
-        width: 100%;
+        width: 85%;
         margin: 0 auto;
     }
 
@@ -342,6 +359,10 @@ footer > a {
     #story-overview-header {
         width: 90%;
         margin: 0 auto;
+    }
+
+    footer {
+        font-size: 12px;
     }
     .photos {
         column-count: 2;
