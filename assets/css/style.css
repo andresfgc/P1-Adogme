@@ -78,8 +78,15 @@ h1, h2 {
     font-size: 250%;
 }
 
+.dog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
 .dog-container {
-    width: 20%;
+    width: 100%
     float: left;
     padding: 0px 0 0 10px;
     text-align: center;
@@ -221,7 +228,7 @@ footer > a {
     border-color: #f16c6b;
 }
 
-.join-button {
+.adopt-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -232,7 +239,7 @@ footer > a {
     display: block;
 }
 
-.join-button:hover {
+.adopt-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
@@ -240,40 +247,15 @@ footer > a {
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos {
+@media screen and (max-width: 1100px) {
+    #dog-overview {
+        height: 850px;
+    }
+
+    .dog-grid {
+        grid-template-columns: 1fr 1fr 1fr;
         width: 65%;
-        height:1200px;
         margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
     }
 }
 
@@ -291,33 +273,13 @@ footer > a {
         left: 0;
     }
 
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    #photos {
+    .photos {
         column-count: 3;
     }
 }
 
 @media screen and (max-width: 800px) {
-    #photos {
+    .photos {
         column-count: 2;
     }
 }
