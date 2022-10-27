@@ -64,12 +64,18 @@ h1, h2 {
 #dog-outer {
     overflow: hidden;
     width: 100%;
+    border-color: #252525;
+    border-top: solid;
+    border-bottom:solid;
+    border-width: 4px;
 }
 
 #dog-image {
     height: 180px;
     width: 100%;
-    background: url('../images/dog-center.jpg') no-repeat center center;
+    background: url('../images/dog-banner.jpg') no-repeat center center;
+    background-position: center;
+    background-size: cover;
 }
 
 #dog-overview-header {
