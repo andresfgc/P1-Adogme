@@ -54,8 +54,8 @@ Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colo
 
 - __sign up page__
 
-  - This page will allow the user to get signed up to Adogme to get in contact for adoption. The user will be asked to submit their full name, email address and phone number.
-![sign up page](/media/sign_up_page.PNG)
+  - This page will allow the user to get signed up to Adogme to get in contact for adoption. The user will be asked to submit their full name, email address, phone number and dog name if the user already know which dog to adopt.
+![sign up page](/media/signup_page.PNG)
 
 - __Features left to implement__
 
