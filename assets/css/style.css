@@ -362,6 +362,18 @@ footer > a {
         width: 90%;
         margin: 0 auto;
     }
+
+    #dogs-dog-overview {
+        height: 1500px;
+    }
+
+    .dogs-dog-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+
 }
 
 /* For medium screen sizes from 900px wide and down */
@@ -382,8 +394,14 @@ footer > a {
         margin: 0 auto;
     }
 
-    .photos {
-        column-count: 3;
+    #dogs-dog-overview {
+        height: 2220px;
+    }
+
+    .dogs-dog-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 85%;
+        margin: 0 auto;
     }
 }
 
@@ -405,10 +423,6 @@ footer > a {
         width: 75%;
         margin: 0 auto;
     }
-
-    .photos {
-        column-count: 3;
-    }
 }
 
 /* For medium screen sizes from 600px wide and down */
@@ -416,12 +430,10 @@ footer > a {
     #signup {
         height: 220px;
     }
+
     #signup-text h3 {
         width: 90%;
         margin: 0 auto;
-    }
-    .photos {
-        column-count: 2;
     }
 }
 
@@ -438,7 +450,8 @@ footer > a {
     footer {
         font-size: 12px;
     }
-    .photos {
-        column-count: 2;
+
+    #dogs-dog-overview {
+        height: 1980px;
     }
 }
