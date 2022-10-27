@@ -61,3 +61,19 @@ Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colo
 
   - The user will be redirected to sign up each time they click on a dog image, name or the adopt me bottom.
 
+## Testing
+
+For ideal responsive design five media queries were included and tested across diferent browsers and devices. The grid function was used to offer a solid appareance when showing the dog overview.
+
+Using a concrete high of 190px and different images it was possible to provide similar image sizes for each dog container.
+
+## Validator Testing
+
+- HTML
+
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandresfgc.github.io%2Fp1%2Findex.html)
+
+- CSS
+
+  - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
