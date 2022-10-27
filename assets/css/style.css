@@ -358,12 +358,13 @@ footer > a {
     }
 
     #story-overview {
-        height: 900px;
+        height: auto;
+        margin-bottom: 10px;
     }
 
     .story-grid {
         grid-template-columns: 1fr;
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
@@ -383,18 +384,12 @@ footer > a {
 /* For medium screen sizes from 900px wide and down */
 @media screen and (max-width: 900px) {
     #dog-overview {
-        height: 1100px;
+        height: 1050px;
     }
 
     .dog-grid {
         grid-template-columns: 1fr 1fr;
         width: 85%;
-        margin: 0 auto;
-    }
-
-    .story-grid {
-        grid-template-columns: 1fr;
-        width: 80%;
         margin: 0 auto;
     }
 
@@ -422,10 +417,18 @@ footer > a {
     header {
         height: 100px;
     }
+
+    #dog-overview {
+        height: 1000px;
+    }
 }
 
 /* For medium screen sizes from 600px wide and down */
 @media screen and (max-width: 600px) {
+    #dog-overview {
+        height: 1050px;
+    }
+
     #signup {
         height: 220px;
     }
@@ -443,13 +446,18 @@ footer > a {
     #dogs-dog-overview {
         height: 2380px;
     }
+
+    .story-container {
+        height: auto;
+    }
 }
 
 /* For medium screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
-    #story-overview {
-        height: 950px;
+    #dog-overview {
+        height: 1000px;
     }
+    
     #story-overview-header {
         width: 90%;
         margin: 0 auto;
