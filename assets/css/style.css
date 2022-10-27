@@ -215,17 +215,74 @@ footer > a {
     padding: 0 15px;
 }
 
-/* gallery */
+/* dogs */
 
-#photos {
+#dogs-dog-overview {
     clear: both;
-    line-height: 0;
-    column-count: 5;
-    column-gap: 0;
+    height: 750px;
 }
 
-#photos > img {
+#dogs-dog-outer {
+    overflow: hidden;
     width: 100%;
+}
+
+#dogs-dog-image {
+    height: 180px;
+    width: 100%;
+    background: url('../images/dog-center.jpg') no-repeat center center;
+}
+
+#dogs-dog-overview-header {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 250%;
+}
+
+.dogs-dog-grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.dogs-dog-container {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    max-width: 190px;
+    font-weight: bold;
+    border-color: rgb(210, 201, 201);
+}
+
+.dogs-dog-container button {
+    font-weight: bold;
+}
+
+.dogs-dog-container :hover {
+    background-color:rgb(238, 185, 88);
+}
+
+.dogs-dog-text {
+    margin-top: -4px;
+}
+
+.dogs-dog-foto {
+    width: 100%;
+    max-height: 190px;
+}
+
+.dogs-dog-container .dogs-dog-foto, .dogs-dog-name, .dogs-dog-adopt-button {
+    cursor: pointer;
+}
+
+.dogs-dog-name, .dogs-dog-adopt-button {
+    background-color: inherit;
+    color: #252525;
+    font-size: 16px;
 }
 
 /* Form */
