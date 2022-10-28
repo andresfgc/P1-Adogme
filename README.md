@@ -1,8 +1,34 @@
-## Adogme
+<h1 align="center">Adogme</h1>
+
+[View the live project here.](https://andresfgc.github.io/p1/)
 
 Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colombia. The site will be focused on people lookinf for a dog. Adogme will offer updated information for people who want to adopt a dog around the metropolitan area of Bucaramanga.
 
 ![Responsive Mockup](/media/adogme_mockup.PNG)
+
+### Design
+
+- __Colour Scheme__
+
+  - The three main colours used are green, white and orange.
+
+- __Typography__
+
+  - The Fira font is used throughout the whole website with Sans Serif as the fallback font. The Oswald font is used for the headers with the Sans Serif as the fallback font.
+
+- __Imagery__
+
+  - The hero image is designed to catch the user's attention. it also crertaes a clear separation between the h1 "Logo" and the h2 "Dogs available for adoption".
+
+### Wireframes
+
+- __Desktop__
+
+![wireframes desktop](/media/wireframes_pc.PNG)
+
+- __Mobile__
+
+![wireframes desktop](/media/wireframes_mobile.PNG)
 
 ## Features
 
@@ -59,7 +85,7 @@ Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colo
 
 - __Features left to implement__
 
-  - The user will be redirected to sign up each time they click on a dog image, name or the adopt me bottom.
+  - The user will be redirected to sign up each time they click on a dog image, name or the adopt me button.
 
 ## Testing
 
@@ -77,3 +103,31 @@ Using a concrete high of 190px and different images it was possible to provide s
 
   - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
+## Deployment
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/andresfgc/p1)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. In the left-nav-menu click on "page".
+4. Under "Source", click the dropdown called "None" and select "Main" and save.
+5. The page will automatically refresh.
+6. wait a few minutes and then reload the page, you will see the now published site [link](https://andresfgc.github.io/p1/) in the "GitHub Pages" section.
+
+## Credits
+
+### Structure
+- The head structure idea was taken from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+- The body dog overview idea was taken from the website [petfinder.com](https://www.petfinder.com/).
+- The footer idea was taken from the coders coffehouse project.
+- The sign up page idea was taken from the [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+
+### Content
+
+- The text for the dog overview section was taken from [petfinder.com](https://www.petfinder.com/).
+- Instructions on how to implement form validation on the Sign Up page was taken from [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
