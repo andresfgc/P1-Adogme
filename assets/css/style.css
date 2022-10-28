@@ -128,6 +128,7 @@ h1, h2 {
     background-color: inherit;
     color: #252525;
     font-size: 16px;
+    font-family:fira, sans-serif;
 }
 
 /*Sign up section */
@@ -163,6 +164,7 @@ h1, h2 {
     text-decoration: none;
     line-height: 75px;
     color: black;
+    font-family:fira, sans-serif;
 }
 
 .signup-bottom:hover {
@@ -290,6 +292,7 @@ footer > a {
     background-color: inherit;
     color: #252525;
     font-size: 16px;
+    font-family:fira, sans-serif;
 }
 
 /* Sign Up Site*/
@@ -340,6 +343,7 @@ footer > a {
     background-color: rgb(86, 183, 107);
     color: #fafafa;
     display: block;
+    font-family:fira, sans-serif;
 }
 
 .adopt-button:hover {
