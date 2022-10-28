@@ -129,4 +129,5 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Media
 
-- The 
+- The dog photos used on the home page are from [rowpixel.com](https://www.rawpixel.com/)
+- The image used on the home page are from [freepik.com](https://www.freepik.com/)
