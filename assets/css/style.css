@@ -73,7 +73,7 @@ h1, h2 {
 #dog-image {
     height: 180px;
     width: 100%;
-    background: url('../images/dog-banner.jpg') no-repeat center center;
+    background: url('../images/banner_v8.jpg') no-repeat center center;
     background-position: center;
     background-size: cover;
 }
