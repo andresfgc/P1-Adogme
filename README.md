@@ -70,7 +70,7 @@ Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colo
 
   - The footer will allow the user to find and follow the social media sites for Adogme. The links will open a new tab.
 
-![story section](/media/stories.PNG)
+![story section](/media/footer.PNG)
 
 - __dog overview dogs page__
 
