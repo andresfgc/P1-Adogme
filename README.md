@@ -1,6 +1,6 @@
 <h1 align="center">Adogme</h1>
 
-[View the live project here.](https://andresfgc.github.io/p1/)
+[View the live project here.](https://andresfgc.github.io/Adogme/)
 
 Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colombia. The site will be focused on people lookinf for a dog. Adogme will offer updated information for people who want to adopt a dog around the metropolitan area of Bucaramanga.
 
