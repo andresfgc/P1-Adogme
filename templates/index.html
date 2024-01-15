@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="dog-overview">
+    <div id="dogs-header">
+        <h2 id="dogs-dog-overview-header">{% block title %} Dogs available for adoption {% endblock %}</h2>
+    </div>
+    <div class="dog-grid">
+        <div class="dog-container">
+            <img class="dog-foto" alt="Big black dog for adoption" src="../static/images/dog-big-black.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Rafa</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Goldenbrown puppy for adoption" src="../static/images/dog-goldenbrown.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Vanilla</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Big brownblack dog for adoption" src="../static/images/dog-big-brownblack.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Coco</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Medium black-brown-white dog for adoption" src="../static/images/dog-medium-black-brown-white.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Coffee</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Medium black dog for adoption" src="../static/images/dog-medium-black.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Bubble</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="blackwhite puppy for adoption" src="../static/images/puppy-blackwhite.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Mateo</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>      
+    </div>
+</section>
+{% endblock %}
