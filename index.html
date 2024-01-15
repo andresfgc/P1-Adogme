@@ -1,105 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Adogme portal for dog adoption in Bucaramanga, Colombia">
-    <meta name="keywords" content=" Adogme, dog adoption, Bucaramanga, Colombia">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Adogme</title>
-</head>
-<body>
-    <header>
-        <a href="index.html">
-            <h1 id="logo">
-                Adogme
-            </h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="dogs.html">Dogs</a></li>
-                <li><a href="index.html" class="active">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="dog-overview">
-            <div id="dog-outer">
-                <div id="dog-image"></div>
+{% extends "base.html" %}
+{% block content%}
+<section id="dog-overview">
+    <div id="dog-outer">
+        <div id="dog-image"></div>
+    </div>
+    <h2 id="dog-overview-header">Dogs available for adoption</h2>
+    <div class="dog-grid">
+        <div class="dog-container">
+            <img class="dog-foto" alt="Big black dog for adoption" src="assets/images/dog-big-black.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Rafa</p>
+            <button class="dog-adopt-button">Adopt me</button>
             </div>
-            <h2 id="dog-overview-header">Dogs available for adoption</h2>
-            <div class="dog-grid">
-                <div class="dog-container">
-                    <img class="dog-foto" alt="Big black dog for adoption" src="assets/images/dog-big-black.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Rafa</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>
-                <div class="dog-container">
-                    <img class="dog-foto" alt="Goldenbrown puppy for adoption" src="assets/images/puppy-goldbrown.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Vanilla</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>
-                <div class="dog-container">
-                    <img class="dog-foto" alt="Big brownblack dog for adoption" src="assets/images/dog-big-brownblack.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Coco</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>
-                <div class="dog-container">
-                    <img class="dog-foto" alt="Medium black-brown-white dog for adoption" src="assets/images/dog-medium-black-brown-white.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Coffee</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>
-                <div class="dog-container">
-                    <img class="dog-foto" alt="Medium black dog for adoption" src="assets/images/dog-medium-black.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Bubble</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>
-                <div class="dog-container">
-                    <img class="dog-foto" alt="blackwhite puppy for adoption" src="assets/images/puppy-blackwhite.jpg">
-                    <div class="dog-text">
-                        <p class="dog-name">Mateo</p>
-                    <button class="dog-adopt-button">Adopt me</button>
-                    </div>
-                </div>      
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Goldenbrown puppy for adoption" src="assets/images/puppy-goldbrown.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Vanilla</p>
+            <button class="dog-adopt-button">Adopt me</button>
             </div>
-        </section>
-        <section id="signup">
-            <div id="signup-text">
-                <h2>Still looking?</h2>
-                <h3>Sign up to get notified for upcoming available dogs!</h3>
-                <a class="signup-bottom" href="signup.html">SIGN UP</a>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Big brownblack dog for adoption" src="assets/images/dog-big-brownblack.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Coco</p>
+            <button class="dog-adopt-button">Adopt me</button>
             </div>
-        </section>
-        <section id="story-overview">
-            <h2 id="story-overview-header">Our Happy Stories</h2>
-            <div class="story-grid">
-                <div class="story-container">
-                    <img class="story-foto" alt="girl smilling next to her pitbull" src="assets/images/bike-dog.jpg">
-                </div>
-                <div class="story-container">
-                    <img class="story-foto" alt="woman hugging her happy dog" src="assets/images/army-dog.jpg">
-                </div>    
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Medium black-brown-white dog for adoption" src="assets/images/dog-medium-black-brown-white.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Coffee</p>
+            <button class="dog-adopt-button">Adopt me</button>
             </div>
-        </section>
-    </main>
-    <footer>
-        <span>Find us on:</span>
-        <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a>
-    </footer>
-</body>
-</html>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="Medium black dog for adoption" src="assets/images/dog-medium-black.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Bubble</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>
+        <div class="dog-container">
+            <img class="dog-foto" alt="blackwhite puppy for adoption" src="assets/images/puppy-blackwhite.jpg">
+            <div class="dog-text">
+                <p class="dog-name">Mateo</p>
+            <button class="dog-adopt-button">Adopt me</button>
+            </div>
+        </div>      
+    </div>
+</section>
+<section id="signup">
+    <div id="signup-text">
+        <h2>Still looking?</h2>
+        <h3>Sign up to get notified for upcoming available dogs!</h3>
+        <a class="signup-bottom" href="signup.html">SIGN UP</a>
+    </div>
+</section>
+<section id="story-overview">
+    <h2 id="story-overview-header">Our Happy Stories</h2>
+    <div class="story-grid">
+        <div class="story-container">
+            <img class="story-foto" alt="girl smilling next to her pitbull" src="assets/images/bike-dog.jpg">
+        </div>
+        <div class="story-container">
+            <img class="story-foto" alt="woman hugging her happy dog" src="assets/images/army-dog.jpg">
+        </div>    
+    </div>
+</section>
+{% endblock %}
