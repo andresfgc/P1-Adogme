@@ -49,23 +49,6 @@ h1, h2 {
     height: 600px;
 }
 
-/* #dog-outer {
-    overflow: hidden;
-    width: 100%;
-    border-color: #252525;
-    border-top: solid;
-    border-bottom:solid;
-    border-width: 4px;
-}
-
-#dog-image {
-    height: 180px;
-    width: 100%;
-    background: url('../images/banner_v8.jpg') no-repeat center center;
-    background-position: center;
-    background-size: cover;
-} */
-
 #dog-overview-header {
     text-align: center;
     margin: 5px 0;
@@ -285,16 +268,17 @@ footer > a {
 
 /* Sign Up Site*/
 
-.form-section {
+/* .form-section {
     clear: left;
     background: url("../images/signip_page.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
-}
+} */
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    top: 0;
+    margin: 100px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
