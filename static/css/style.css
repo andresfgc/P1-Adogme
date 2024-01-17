@@ -47,7 +47,7 @@ h1, h2 {
 
 .video-container {
     position: relative;
-    height: 60vh; /* adjust the height as needed */
+    height: 100vh; /* 100 use all display */
   }
   
   #banner {
@@ -71,18 +71,15 @@ h1, h2 {
 }
 
 .brand {
-    color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
-.nav-item {
+/* .nav-item {
     border-left: 2px solid white;
-}
+} */
 
-.nav-link {
-    color: white;
-}
+
 /*dog-image section*/
 
 #dog-overview {
