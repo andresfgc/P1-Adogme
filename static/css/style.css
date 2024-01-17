@@ -43,6 +43,46 @@ h1, h2 {
     color: #252525;
 }
 
+/*navbar video*/
+
+.video-container {
+    position: relative;
+    height: 60vh; /* adjust the height as needed */
+  }
+  
+  #banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+.navbar-position {
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    padding: 0 0 0 3vw;
+    font-size: 18px;
+}
+
+.brand {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-item {
+    border-left: 2px solid white;
+}
+
+.nav-link {
+    color: white;
+}
 /*dog-image section*/
 
 #dog-overview {
