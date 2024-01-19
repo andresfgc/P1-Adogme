@@ -50,61 +50,8 @@ h1, h2 {
 
 /*dog-image section*/
 
-#dog-overview {
-    height: 600px;
-}
-
-#dog-overview-header {
-    text-align: center;
-    margin: 5px 0;
-    font-size: 220%;
-}
-
-.dog-grid {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 20px;
-}
-
-.dog-container {
-    width: 100%;
-    float: left;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-    max-width: 190px;
-    font-weight: bold;
-    border-color: rgb(210, 201, 201);
-}
-
-.dog-container button {
-    font-weight: bold;
-}
-
-.dog-container :hover {
-    background-color:rgb(238, 185, 88);
-}
-
-.dog-text {
-    margin-top: -4px;
-}
-
-.dog-foto {
-    width: 100%;
-    height: 190px;
-}
-
-.dog-container .dog-foto, .dog-name, .dog-adopt-button {
-    cursor: pointer;
-}
-
-.dog-name, .dog-adopt-button {
-    background-color: inherit;
-    color: #252525;
-    font-size: 16px;
-    font-family:fira, sans-serif;
+.card-img {
+    height: 250px;
 }
 
 /*Sign up section */

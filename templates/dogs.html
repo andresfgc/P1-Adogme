@@ -1,154 +1,158 @@
 {% extends "base.html" %}
 {% block content%}
-<section id="dogs-dog-overview">
-    <div id="dogs-header">
-        <h2 id="dogs-dog-overview-header">Dogs available for adoption</h2>
+<div class="container-fluid overflow-hidden">
+    <div class=" justify-content-evenly row row-cols-1 row-cols-sm-2 row-cols-xxl-3 m-2 g-2">
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-black.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Rafa</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-goldenretriever.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Vanilla</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-brownblack.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Coco</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-medium-black-brown-white.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Coffee</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-medium-black.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Bubble</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/puppy-blackwhite.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Mateo</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-brownwhite.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Annie</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-greywhite.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Bella</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-big-whiteblack.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Cookie</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-medium-brown.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Daisy</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/puppy-goldbrown.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Bruno</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-medium-whitebrown.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Elsa</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-small-brown.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Cooper</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-small-brownwhite.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Tokyo</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-small-coffee.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Heidy</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/dog-small-white.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Juno</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/puppy-brownwhite.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Lia</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
+        <div class="col card p-0" style="width: 18rem;">
+            <img src="../static/images/puppy-whitebrown.jpg" class="card-img-top object-fit-cover card-img" alt="Big black dog for adoption">
+            <div class="card-body">
+                <h5 class="card-title">Milo</h5>
+                <p class="card-text">beautiful large black male with white paws and belly, about 3 years old and very energetic.</p>
+                <a href="{{ url_for('signup')}}" class="btn btn-primary">Adopt me</a>
+            </div>
+        </div>
     </div>
-    <div class="dogs-dog-grid">
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big black dog for adoption" src="../static/images/dog-big-black.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Rafa</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Goldenbrown puppy for adoption" src="../static/images/puppy-goldbrown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Vanilla</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big brownblack dog for adoption" src="../static/images/dog-big-brownblack.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Coco</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Medium black-brown-white dog for adoption" src="../static/images/dog-medium-black-brown-white.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Coffee</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Medium black dog for adoption" src="../static/images/dog-medium-black.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Bubble</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="blackwhite puppy for adoption" src="../static/images/puppy-blackwhite.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Mateo</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big brownwhite dog for adoption" src="../static/images/dog-big-brownwhite.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Annie</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big greywhite dog for adoption" src="../static/images/dog-big-greywhite.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Bella</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big whiteblack dog for adoption" src="../static/images/dog-big-whiteblack.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Cookie</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Medium brown dog for adoption" src="../static/images/dog-medium-brown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Daisy</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Big goldenbrown dog for adoption" src="../static/images/dog-goldenbrown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Bruno</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Medium whitebrown dog for adoption" src="../static/images/dog-medium-whitebrown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Elsa</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Small brown dog for adoption" src="../static/images/dog-small-brown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Cooper</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Small brownwhite dog for adoption" src="../static/images/dog-small-brownwhite.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Tokyo</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Small coffee-color dog for adoption" src="../static/images/dog-small-coffee.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Heidy</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Small white dog for adoption" src="../static/images/dog-small-white.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Juno</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="Brown-white puppy" src="../static/images/puppy-brownwhite.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Lia</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>
-        <div class="dogs-dog-container">
-            <img class="dogs-dog-foto" alt="White-brown puppy" src="../static/images/puppy-whitebrown.jpg">
-            <div class="dogs-dog-text">
-                <p class="dogs-dog-name">Milo</p>
-            <button class="dogs-dog-adopt-button">Adopt me</button>
-            </div>
-        </div>    
-    </div>
-</section>
+</div>
 <section id="signup">
     <div id="signup-text">
         <h2>Still looking?</h2>
         <h3>Sign up to get notified for upcoming available dogs!</h3>
         <a class="signup-bottom" href="{{ url_for('signup')}}">SIGN UP</a>
-    </div>
-</section>
-<section id="story-overview">
-    <h2 id="story-overview-header">Our Happy Stories</h2>
-    <div class="story-grid">
-        <div class="story-container">
-            <img class="story-foto" alt="girl smilling next to her pitbull" src="../static/images/bike-dog.jpg">
-        </div>
-        <div class="story-container">
-            <img class="story-foto" alt="woman hugging her happy dog" src="../static/images/army-dog.jpg">
-        </div>    
     </div>
 </section>
 {% endblock %}
