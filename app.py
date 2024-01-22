@@ -11,11 +11,6 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/dogs")
-def dogs():
-    return render_template("dogs.html")
-
-
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
