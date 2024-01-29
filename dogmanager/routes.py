@@ -2,11 +2,6 @@ from flask import render_template
 from dogmanager import app, db
 
 
-# @app.route("/")
-# def home():
-#     return render_template("base.html")
-
-
 @app.route("/")
 def index():
     return render_template("index.html")
