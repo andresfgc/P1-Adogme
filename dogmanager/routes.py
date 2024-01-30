@@ -1,5 +1,6 @@
 from flask import render_template
 from dogmanager import app, db
+from dogmanager.models import User, Dog
 
 
 @app.route("/")
