@@ -2,7 +2,7 @@
 
 [View the live project here.](https://adogme-ab0cc94632a0.herokuapp.com/)
 
-Adogme is a site that wants to promote the adoption of dogs.
+Adogme wnats to promote dog adoption.
 
 ![Responsive Mockup](/media/adogme_mockup.PNG)
 
