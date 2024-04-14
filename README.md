@@ -1,4 +1,4 @@
-<h1 align="center">Adogme</h1>
+<h1 align="center">Adogme</h1> (Work in progess for version 2)
 
 [View the live project here.](https://adogme-ab0cc94632a0.herokuapp.com/)
 
