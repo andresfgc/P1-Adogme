@@ -2,7 +2,7 @@
 
 [View the live project here.](https://adogme-ab0cc94632a0.herokuapp.com/)
 
-Adogme is a site that wants to promote the adoption of dogs in Bucaramanga, Colombia. The site will be focused on people lookinf for a dog. Adogme will offer updated information for people who want to adopt a dog around the metropolitan area of Bucaramanga.
+Adogme is a site that wants to promote the adoption of dogs.
 
 ![Responsive Mockup](/media/adogme_mockup.PNG)
 
