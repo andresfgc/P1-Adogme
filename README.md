@@ -2,7 +2,7 @@
 
 [View the live project here.](https://adogme-ab0cc94632a0.herokuapp.com/)
 
-Adogme wnats to promote dog adoption.
+Adogme wants to promote dog adoption.
 
 ![Responsive Mockup](/media/adogme_mockup.PNG)
 
